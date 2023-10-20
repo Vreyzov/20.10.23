@@ -155,17 +155,6 @@
 //}
 //Console.WriteLine($"Cредне арфмитическое = {Convert.ToDouble( sum )/ Convert.ToDouble(count)}");
 
-// стр 38 № 12
-//int composition = 1;
-
-//while (true)
-//{
-//    composition *= Math.Abs(Convert.ToInt32(Console.ReadLine()));
-//    Console.WriteLine("Продольжить последовательность? Y/N");
-//    if (Console.ReadLine() == "N")
-//    {
-//        break;
-
 //стр 36 № 1(б)
 //Console.WriteLine("e =");
 //double e = Convert.ToDouble(Console.ReadLine());
@@ -186,6 +175,21 @@
 //}
 //Console.WriteLine(sum);
 
+//    }
+
+//}
+//Console.WriteLine($"Произведение = {composition}");
+
+// стр 38 № 12
+//int composition = 1;
+
+//while (true)
+//{
+//    composition *= Math.Abs(Convert.ToInt32(Console.ReadLine()));
+//    Console.WriteLine("Продольжить последовательность? Y/N");
+//    if (Console.ReadLine() == "N")
+//    {
+//        break;
 //    }
 
 //}
