@@ -165,6 +165,27 @@
 //    if (Console.ReadLine() == "N")
 //    {
 //        break;
+
+//стр 36 № 1(б)
+//Console.WriteLine("e =");
+//double e = Convert.ToDouble(Console.ReadLine());
+//double sum = 0;
+//while (true)
+//{
+//    double tmp = Convert.ToDouble(Console.ReadLine());
+//    tmp = (1 / Math.Pow(2, tmp) + 1 / Math.Pow(3, tmp));
+//    if (Math.Abs(tmp) >= e)
+//    {
+//        sum += tmp;
+//    }
+//    Console.WriteLine("Продольжить последовательность? Y/N");
+//    if (Console.ReadLine() == "N")
+//    {
+//        break;
+//    }
+//}
+//Console.WriteLine(sum);
+
 //    }
 
 //}
