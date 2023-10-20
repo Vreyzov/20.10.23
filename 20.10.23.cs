@@ -107,40 +107,65 @@
 //}
 //Console.WriteLine($"Произведение: {composition}");
 
-////задание 7 стр 38
-//int[] sequence = { -1, 2, -3, 4, -5, 6, -7, 8, -9 };
-//int sum = 0;
-//foreach (int number in sequence)
-//{
-//    sum += Math.Abs(number);
-//}
-//Console.WriteLine($"Сумма модулей элементов последовательности: {sum}");
 
-////задание 9 стр 38
-//int[] sequence = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-//int sum = 0;
-//foreach (int number in sequence)
-//{
-//    sum += number*number;
-//}
-//Console.WriteLine($"Сумма квадратов элементов последовательности: {sum}");
 
-//задание 10 стр 38
-//int[] sequence = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+// стр 38 № 7
 //int sum = 0;
-//int sum1 = 0;
-//foreach (int number in sequence)
-//{
-//    sum += number;
-//    sum1 = sum / 9;
-//}
-//Console.WriteLine($"Среднее арифметическое последовательности: {sum1}");
 
-////задание 12 стр 38
-//int[] sequence = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-//int sum = -1;
-//foreach (int number in sequence)
+//while (true)
 //{
-//    sum *= number * number;
+//    sum += Math.Abs(Convert.ToInt32(Console.ReadLine()));
+//    Console.WriteLine("Продольжить последовательность? Y/N");
+//    if (Console.ReadLine() == "N")
+//    {
+//        break;
+//    }
+
 //}
-//Console.WriteLine($"Сумма произведеней элементов последовательности: {sum}");
+//Console.WriteLine($"Сумма модулей = {sum}");
+
+//стр 38 № 9
+//double sum = 0;
+
+//while (true)
+//{
+//    sum += Math.Pow(Convert.ToDouble(Console.ReadLine()), 2);
+//    Console.WriteLine("Продольжить последовательность? Y/N");
+//    if (Console.ReadLine() == "N")
+//    {
+//        break;
+//    }
+
+//}
+//Console.WriteLine($"Сумма квадратов = {sum}");
+
+// стр 38 № 10
+//int sum = 0;
+//int count = 0;
+//while (true)
+//{
+//    sum += Convert.ToInt32(Console.ReadLine());
+//    count++;
+//    Console.WriteLine("Продольжить последовательность? Y/N");
+//    if (Console.ReadLine() == "N")
+//    {
+//        break;
+//    }
+
+//}
+//Console.WriteLine($"Cредне арфмитическое = {Convert.ToDouble( sum )/ Convert.ToDouble(count)}");
+
+// стр 38 № 12
+//int composition = 1;
+
+//while (true)
+//{
+//    composition *= Math.Abs(Convert.ToInt32(Console.ReadLine()));
+//    Console.WriteLine("Продольжить последовательность? Y/N");
+//    if (Console.ReadLine() == "N")
+//    {
+//        break;
+//    }
+
+//}
+//Console.WriteLine($"Произведение = {composition}");
